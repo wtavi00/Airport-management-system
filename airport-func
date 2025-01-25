@@ -1,0 +1,17 @@
+print("This program is for runway status display")
+
+Runway = input("The status of the runway:")
+Fuel_Status = input("If the fuel status is low, say low:")
+
+def display():
+    print("Flight has landed")
+    print("Proceed for Immigration Check")
+    Passenger_Count = 1
+    for _ in range(5):
+        print("Immigration check done for passenger,", Passenger_Count)
+        Passenger_Count += 1
+    print("No_Of_Passengers=", Passenger_Count - 1)
+    print("Collect the baggage from the conveyor belt")
+    Baggage_Count = 150
+    print("Baggage count", Baggage_Count)
+    print("All bags have been collected")
