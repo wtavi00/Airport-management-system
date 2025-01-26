@@ -11,3 +11,8 @@ Luggage Check: Validate luggage weight against airline policies and calculate ex
 Security Check: Ensure all passengers and their baggage are cleared through security.
 
 Dynamic Baggage Limit: Update baggage limits and calculate extra baggage charges accordingly.
+
+## Class Structure
+
+### `AirlineSystem`
+Handles the overall operations and integration of other components. Responsible for managing the execution flow of the system.
