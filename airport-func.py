@@ -18,3 +18,16 @@ class Flight:
             self.display_landing_process()
         else:
             print("Circle in the air")
+            
+    @staticmethod
+    def display_landing_process():
+        print("Flight has landed")
+        print("Proceed for Immigration Check")
+        passenger_count = 1
+        while passenger_count <= 5:
+            print(f"Immigration check done for passenger, {passenger_count}")
+            passenger_count += 1
+        print("No_Of_Passengers=", passenger_count - 1)
+        print("Collect the baggage from the conveyor belt")
+        print("Baggage count", 150)
+        print("All bags have been collected")
