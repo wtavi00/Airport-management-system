@@ -16,3 +16,6 @@ Dynamic Baggage Limit: Update baggage limits and calculate extra baggage charges
 
 ### `AirlineSystem`
 Handles the overall operations and integration of other components. Responsible for managing the execution flow of the system.
+
+### `Passenger`
+Represents an individual passenger with attributes such as name, ticket status, and passport status. Contains methods to validate passports and manage ticket confirmation.
