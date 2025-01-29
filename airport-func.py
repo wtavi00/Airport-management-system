@@ -31,3 +31,19 @@ class Flight:
         print("Collect the baggage from the conveyor belt")
         print("Baggage count", 150)
         print("All bags have been collected")
+
+class Airlines:
+    def __init__(self, name, luggage_weight):
+        self.name = name
+        self.luggage_weight = luggage_weight
+        self.weight_limits = {"AirIndia": 30, "Emirates": 35, "British Airways": 35}
+
+    def check_luggage(self):
+        weight_limit = self.weight_limits.get(self.name, 0)
+        if weight_limit == 0:
+            print("Invalid airline")
+        elif self.luggage_weight <= weight_limit:
+            print("Check-in cleared")
+        else:
+            print("Remove some luggage and come back")
+
