@@ -47,3 +47,10 @@ class Airlines:
         else:
             print("Remove some luggage and come back")
 
+class Ticketing:
+    @staticmethod
+    def generate_tickets(no_of_passengers, starting_ticket_number):
+        print("Ticket Numbers for all the Passengers:")
+        for _ in range(no_of_passengers):
+            print(f"T - {starting_ticket_number}")
+            starting_ticket_number += 1
