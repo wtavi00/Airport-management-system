@@ -57,3 +57,11 @@ class Ticketing:
             
 class Pricing:
     @staticmethod
+     def calculate_total_ticket_cost(no_of_adults, no_of_children):
+        adults_price = 37550.0
+        children_price = adults_price / 3
+        service_tax = 0.07
+        discount = 0.10
+
+         
+        return total_with_discount
