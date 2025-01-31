@@ -54,3 +54,6 @@ class Ticketing:
         for _ in range(no_of_passengers):
             print(f"T - {starting_ticket_number}")
             starting_ticket_number += 1
+            
+class Pricing:
+    @staticmethod
