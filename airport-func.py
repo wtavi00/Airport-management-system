@@ -63,5 +63,11 @@ class Pricing:
         service_tax = 0.07
         discount = 0.10
 
+         rate_of_adults = adults_price * no_of_adults
+        rate_of_children = children_price * no_of_children
+        total_cost = rate_of_adults + rate_of_children
+
+        total_with_tax = total_cost + (service_tax * total_cost)
+        total_with_discount = total_with_tax - (total_with_tax * discount)
          
         return total_with_discount
