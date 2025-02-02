@@ -71,3 +71,9 @@ class Pricing:
         total_with_discount = total_with_tax - (total_with_tax * discount)
          
         return total_with_discount
+
+class Passport:
+    @staticmethod
+    def check_validity(passport_no):
+        if len(passport_no) == 8 and passport_no[0].isalpha():
+            return "valid"
