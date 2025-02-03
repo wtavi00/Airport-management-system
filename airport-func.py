@@ -77,3 +77,5 @@ class Passport:
     def check_validity(passport_no):
         if len(passport_no) == 8 and passport_no[0].isalpha():
             return "valid"
+        return "invalid"
+
