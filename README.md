@@ -19,3 +19,6 @@ Handles the overall operations and integration of other components. Responsible 
 
 ### `Passenger`
 Represents an individual passenger with attributes such as name, ticket status, and passport status. Contains methods to validate passports and manage ticket confirmation.
+
+### `Luggage`
+Manages baggage-related operations, including weight validation, extra luggage charges, and dynamic baggage limit updates.
