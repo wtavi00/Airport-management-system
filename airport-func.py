@@ -79,3 +79,8 @@ class Passport:
             return "valid"
         return "invalid"
 
+class Security:
+    def __init__(self, no_of_passengers, no_of_baggage, security_check):
+        self.no_of_passengers = no_of_passengers
+        self.no_of_baggage = no_of_baggage
+        self.security_check = security_check
