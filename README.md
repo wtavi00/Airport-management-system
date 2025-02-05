@@ -22,3 +22,6 @@ Represents an individual passenger with attributes such as name, ticket status, 
 
 ### `Luggage`
 Manages baggage-related operations, including weight validation, extra luggage charges, and dynamic baggage limit updates.
+
+### `Ticketing`
+Responsible for generating tickets, assigning ticket numbers, and calculating total ticket costs for passengers (adults and children).
