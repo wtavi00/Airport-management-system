@@ -85,3 +85,11 @@ class Security:
         self.no_of_baggage = no_of_baggage
         self.security_check = security_check
 
+    def perform_security_check(self):
+        for passenger_count in range(1, self.no_of_passengers + 1):
+            for baggage_count in range(1, self.no_of_baggage + 1):
+                if self.security_check:
+                    print(f"Security check of passenger {passenger_count} -- baggage {baggage_count} cleared")
+                else:
+                    print(f"Security check of passenger {passenger_count} -- baggage {baggage_count} not cleared")
+
