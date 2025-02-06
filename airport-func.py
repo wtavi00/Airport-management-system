@@ -93,3 +93,10 @@ class Security:
                 else:
                     print(f"Security check of passenger {passenger_count} -- baggage {baggage_count} not cleared")
 
+class Baggage:
+    def __init__(self, weight_limit):
+        self.weight_limit = weight_limit
+
+    def cheak_baggage(self,baggage_weights):
+
+        
