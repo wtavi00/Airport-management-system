@@ -98,5 +98,14 @@ class Baggage:
         self.weight_limit = weight_limit
 
     def cheak_baggage(self,baggage_weights):
+        count = 0
+        for i, weight in enumerate(baggage_weights, 1):
+            if 1 <= weight <= self.weight_limit:
+                print(f"Passenger {i}: Proceed for baggage check.")
+            else:
+                count += 1
+                print(f"Passenger {i}: Maximum baggage weight allowed is {self.weight_limit}kg.")
+        print("No. of passengers who cleared baggage check:", count)
 
-        
+
+    
