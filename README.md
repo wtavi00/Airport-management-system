@@ -28,3 +28,5 @@ Responsible for generating tickets, assigning ticket numbers, and calculating to
 
 ### `SecurityCheck`
 Handles security clearance for passengers and their baggage. Ensures compliance with security protocols.
+
+## How to Use
