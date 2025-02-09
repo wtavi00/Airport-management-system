@@ -30,3 +30,8 @@ Responsible for generating tickets, assigning ticket numbers, and calculating to
 Handles security clearance for passengers and their baggage. Ensures compliance with security protocols.
 
 ## How to Use
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+   
