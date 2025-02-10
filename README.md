@@ -38,3 +38,7 @@ Handles security clearance for passengers and their baggage. Ensures compliance 
    ```bash
    cd airline-management-system
    ```  
+3. Run the program:
+   ```bash
+   python airline_system.py
+   ```
