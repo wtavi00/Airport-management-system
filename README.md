@@ -34,4 +34,7 @@ Handles security clearance for passengers and their baggage. Ensures compliance 
    ```bash
    git clone <repository-url>
    ```
-   
+ 2. Navigate to the project directory:
+   ```bash
+   cd airline-management-system
+   ```  
