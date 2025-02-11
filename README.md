@@ -42,3 +42,9 @@ Handles security clearance for passengers and their baggage. Ensures compliance 
    ```bash
    python airline_system.py
    ```
+
+
+## Sample Workflow
+
+1. Input runway and fuel status to determine whether a flight can land.
+2. 
