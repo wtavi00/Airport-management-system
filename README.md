@@ -47,4 +47,4 @@ Handles security clearance for passengers and their baggage. Ensures compliance 
 ## Sample Workflow
 
 1. Input runway and fuel status to determine whether a flight can land.
-2. 
+2. Generate tickets for passengers, including validating their luggage weight and handling extra baggage charges.
