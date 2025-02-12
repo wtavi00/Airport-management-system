@@ -48,3 +48,7 @@ Handles security clearance for passengers and their baggage. Ensures compliance 
 
 1. Input runway and fuel status to determine whether a flight can land.
 2. Generate tickets for passengers, including validating their luggage weight and handling extra baggage charges.
+3. Conduct security checks for passengers and baggage.
+4. Output ticket costs and additional charges for all passengers
+
+   
