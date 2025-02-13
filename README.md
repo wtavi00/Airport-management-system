@@ -52,3 +52,7 @@ Handles security clearance for passengers and their baggage. Ensures compliance 
 4. Output ticket costs and additional charges for all passengers
 
    
+## Future Enhancements
+- Add a graphical user interface (GUI) for better user experience.
+- Include database integration to manage passenger data more effectively.
+- Enhance security protocols with real-time validation.
