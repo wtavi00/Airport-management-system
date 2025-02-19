@@ -1,0 +1,44 @@
+# Byte-compiled / intermediate files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Python cache & debugging files
+*.pyo
+*.pyd
+*.pdb
+
+# Environment variables and secrets (if any)
+.env
+*.key
+*.pem
+
+# Jupyter Notebook checkpoints (if using Jupyter for analysis)
+.ipynb_checkpoints/
+
+# Testing and coverage reports
+.coverage
+htmlcov/
+*.pytest_cache/
