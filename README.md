@@ -32,7 +32,7 @@ Handles security clearance for passengers and their baggage. Ensures compliance 
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   [git clone <repository-url>](https://github.com/wtavi00/Airport)
    ```
  2. Navigate to the project directory:
    ```bash
