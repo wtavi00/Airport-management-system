@@ -57,7 +57,8 @@ Handles security clearance for passengers and their baggage. Ensures compliance 
 - Include database integration to manage passenger data more effectively.
 - Enhance security protocols with real-time validation.
 
-## License
-   ```bash
-   [https://github.com/wtavi00/Airport](https://github.com/wtavi00/Airport/blob/main/LICENSE)
-   ```
+### Authier
+[Avijit Tarafder](https://github.com/wtavi00)
+
+### License
+   [MIT License](https://github.com/wtavi00/Airport/blob/main/LICENSE)
