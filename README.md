@@ -32,15 +32,15 @@ Handles security clearance for passengers and their baggage. Ensures compliance 
 ## How to Use
 1. Clone the repository:
    ```bash
-   https://github.com/wtavi00/Airport
+   https://github.com/wtavi00/Airport-management-system
    ```
  2. Navigate to the project directory:
    ```bash
-   cd airline-management-system
+   cd Airport-management-system
    ```  
 3. Run the program:
    ```bash
-   python airline_system.py
+   python Airport-management-system
    ```
 
 
