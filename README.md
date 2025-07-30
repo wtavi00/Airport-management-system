@@ -1,6 +1,8 @@
+# Airport Management System
+
 The Airline Management System is a Python-based project that simulates various aspects of airline operations, including ticketing, passenger management, luggage handling, and security checks. This program is designed to provide a modular and functional approach by leveraging object-oriented programming principles.
 
-Features
+Features:
 
 Runway Status Display: Determine actions (landing, emergency landing, or circling) based on runway and fuel conditions.
 
@@ -36,11 +38,11 @@ Handles security clearance for passengers and their baggage. Ensures compliance 
    ```
  2. Navigate to the project directory:
    ```bash
-   cd Airport-management-system
+   cd airline_system
    ```  
 3. Run the program:
    ```bash
-   python Airport-management-system
+   python airline_system.py
    ```
 
 
