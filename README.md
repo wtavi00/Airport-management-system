@@ -59,7 +59,7 @@ Handles security clearance for passengers and their baggage. Ensures compliance 
 - Include database integration to manage passenger data more effectively.
 - Enhance security protocols with real-time validation.
 
-## Authier
+## Author
 [Avijit Tarafder](https://github.com/wtavi00)
 
 ## License
